@@ -1,10 +1,14 @@
-import React from "react"
+import React, { Fragment } from "react"
 
 import Navbar from "../components/Navbar"
+import Announcement from "../components/Announcement"
 
 const Home = () => {
     return(
-        <Navbar />
+        <Fragment>
+            <Announcement />
+            <Navbar />
+        </Fragment>
     )
 }
 
